@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find cheap flights and save money on airline tickets to every destination in the world at www.Paktours.pk">
+    <title>www.Paktours.pk</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet" type="text/css" />
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+<link href="flight.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    
+  <header> 
+    <div id="intro" class="bg-image h-100" style="
+    background-image:linear-gradient(rgba(0,0,0,0.267),rgba(0,0,0,0.281)), url('main.jpg'); background-size: 100% 100%;
+  ">
+<div class="mask" style="background-color: rgba(250, 182, 162, 0.15);"></div>
+</div>
+<div class="overlay">
+  <span class="txt">Flights</span>  </div>
+  
+    <nav class="navbar navbar-expand-lg fixed-top mask-custom shadow-0">
+     <div class="container">
+       <h1 class="navbar-brand">PakTours.pk</h1> 
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+            </button>
+       <div class="collapse navbar-collapse" id="navbarNav">
+         <div class="me-auto"></div>
+         <ul class="navbar-nav mx-2">
+          <li class="nav-item">
+           <a class="nav-link" aria-current="page" href="index.html"> Home </a>
+           </li>
+           <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="Stay.html">Stay </a>
+              </li>
+          <li class="nav-item">
+           <a class="nav-link" aria-current="page" href="flight.html"> Flights</a>
+           </li>
+          <li class="nav-item">
+           <a class="nav-link" aria-current="page" href="CarRental.html">Car Rental</a>
+           </li> 
+           <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="Attraction.html">Attraction</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="Blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="ContactUs.html">Contact Us</a>
+                      </li> 
+              </ul>
+          </div>
+  </div>
+  </nav>
+   </header>
+     <!-- Booking Form -->
+     <div class="booking-form-box">
+      <div class="radio-btn">
+        <input type="radio" class="btn" name="check"><span>Roundtrip</span>
+        <input type="radio" class="btn" name="check"><span>One Way</span>
+        <input type="radio" class="btn" name="check"><span>Multi-City</span>
+      </div>
+      <div class="booking-form">
+        <label for="">Flying Form</label>
+        <input type="text" class="form-control" placeholder="City or Airport">
+        <label for="">Flying To</label>
+        <input type="text" class="form-control" placeholder="City or Airport">
+     
+        <div class="input-grp">
+          <label for="">Departing</label>
+          <input type="date" class="form-control select-date">
+        </div>
+
+        <div class="input-grp">
+          <label for="">Returning</label>
+          <input type="date" class="form-control select-date">
+        </div>
+
+        <div class="input-grp">
+          <label for="">Adults</label>
+          <input type="number" class="form-control" value="1">
+        </div>
+
+        <div class="input-grp">
+          <label for="">Children</label>
+          <input type="number" class="form-control" value="0">
+        </div>
+
+        <div class="input-grp">
+          <label for="">Travel Class</label>
+          <select class="custom-select">
+          <option value="1">Economy Class</option>
+          <option value="1">Business Class</option>
+        </select>
+        </div>
+
+        <div class="input-grp">
+          <button type="button" class="flight">Show Flights</button>
+        </div>
+      </div>
+    </div>
+    <!-- Booking Form -->
+
+
+    <section class="cas">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-4 ">
+    
+          <div class="col">
+            <div class="row">
+              <div class="col-4">
+                <img src="icons8-search-50.png" alt="">
+              </div>
+              <div class="col-8">
+                <h3>The World's Travel Search Engine</h3>
+                <p>You can use our search engine to find any flight you went and select a desired destination and price</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="row">
+              <div class="col-4">
+                <img src="icons8-airport-64.png" alt="">
+              </div>
+              <div class="col-8">
+                <h3>Cheap and Beneficial Air Tickets</h3>
+                <p>We provide affordable tickets to the flights of almost all existing airlines so you don’t need to look for them.</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="row">
+              <div class="col-4">
+                <img src="technical-support.png" alt="">
+              </div>
+              <div class="col-8">
+                <h3>Our Support Lines are Open 24/7</h3>
+                <p>Our 24/7 support operators are always ready to help you select a proper flight according to your needs.</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="row">
+              <div class="col-4">
+                <img src="icons8-invoice-48.png" alt="">
+              </div>
+              <div class="col-8">
+                <h3>Convenient Payment Method For You</h3>
+                <p>We provide a variety of payment methods including cheque, cash, and credit cards.</p>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    
+    </section>
+    
+    
+    
+   <!-- cols -->
+   <section>
+    <div class="A">
+    <div class="col-12">
+      <h2 class="text-center">Informed Travel During COVID-19</h2>
+      <div class="row"> 
+      <div class="col-12  col-sm-12 col-lg-6 col-md-6 col-xl-6">
+        <div class="card">
+         
+            <img src="info1.jpg" style="  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.342);" class="card-img-top" alt="...">
+            <h2 class="card-title" style="margin-left:-1em ;">Can I go to...?</h5>
+            <p class="card-text">Travel informed. Use our interactive map to view exit and entry restrictions around the Pakistan.</p>
+            <a href="#" class="btn">View Map</a>
+         
+        </div>
+       </div>
+       <div class="col-12 col-sm-12 col-lg-6 col-md-6 col-xl-6">
+        <div class="card">
+          <img src="Pakistan_Map.png" style="  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.342);" class="card-img-top" alt="...">
+         
+            <h2 class="card-title">COVID-19 Information</h5>
+           <ul>
+            <li>
+              <img src="1 (2).png" alt="" width="20px" height="20px"> Committed to Healthy Flying
+            </li>
+            <li>
+              <img src="2.png" alt="" width="20px" height="20px"> Flexible Booking
+            </li>
+            <li>
+               <img src="3.png" alt="" width="20px" height="20px"> Entry Restriction by Country/Region
+              </li>
+           </ul>
+         
+        </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- cols -->
+
+
+<!-- pOPLAR rOUTES -->
+<section class="Routes">
+  <div class="container-fluid">
+    <h2>Popular Routes</h2>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 row-cols-xl-4 g-4">
+    <div class="col"><div class="card">
+      <div class="card-body">
+        <h2 class="card-title">Karachi to Gwadar</h2>
+        <p class="card-text">Round-trip | 10 day</p>
+        <p class="card-text">From <strong>PKR 19875</strong></p>
+      </div>
+    </div>
+  </div>
+    <div class="col"><div class="card">
+      <div class="card-body">
+        <h2 class="card-title">Islamabad to Swat</h2>
+        <p class="card-text">Round-trip | 7 day</p>
+        <p class="card-text">From <strong>PKR 27316</strong></p>
+      </div>
+    </div>
+  </div>
+    <div class="col"><div class="card">
+      <div class="card-body">
+        <h2 class="card-title">Lahore to Nathia Gali</h2>
+        <p class="card-text">Round-trip | 4 day</p>
+        <p class="card-text">From <strong>PKR 16450</strong></p>
+      </div>
+    </div>
+  </div>
+    <div class="col"><div class="card">
+      <div class="card-body">
+        <h2 class="card-title">Islamabad to Hunza Valley</h2>
+        <p class="card-text">Round-trip | 5 day</p>
+        <p class="card-text">From <strong>PKR 90387</strong></p>
+      </div>
+    </div>
+  </div>
+  
+</div>
+  </div>
+  </div>
+
+</section>
+
+<!-- pOPLAR rOUTES -->
+
+
+
+      <!-- FAQ -->
+<section>
+
+
+  <h1 class="faq-heading">FAQ'S</h1>
+  <section class="faq-container">
+     
+    <div class="faq-one">
+          <!-- faq question -->
+          <h4 class="faq-page">Which travel destinations are available during the COVID-19 pandemic?</h4>
+          <!-- faq answer -->
+          <div class="faq-body">
+              <p>When you’re booking a car, all you need is a debit or credit card.
+
+At the rental counter, you’ll need:
+
+Your passport
+Your voucher
+A driver’s license for each driver
+The main driver’s credit card (some companies accept debit cards, but most don’t).
+Important: Check the car’s rental terms as well, because each company has its own rules. For example, they might need to see extra ID, might not accept certain types of credit cards, or might not rent to anybody who hasn’t held their driver's license for 36 months, etc.</p>
+          </div>
+      </div>
+
+      <hr class="hr-line">
+
+      <div class="faq-two">
+          <!-- faq question -->
+          <h4 class="faq-page">How to find get cheap flights?</h4>
+          <!-- faq answer -->
+          <div class="faq-body">
+              <p>Most companies will let you rent a car if you’re at least 21, and some will even rent to younger drivers. However, if you’re under 25, you might have to pay a "young driver fee."</p>
+          </div>
+      </div>
+     
+      <hr class="hr-line">
+
+      <div class="faq-three">
+          <!-- faq question -->
+<h4 class="faq-page">When are flight tickets cheapest?</h4>
+          <!-- faq answer -->
+          <div class="faq-body">
+              <p>Of course. Just put their info on the "Driver details" form when booking the car.</p>
+          </div>
+      </div>
+      
+      <hr class="hr-line">
+
+      <div class="faq-four">
+          <!-- faq question -->
+<h4 class="faq-page">How can Paktours.pk's flight price graph help me find the cheapest flights?</h4>
+          <!-- faq answer -->
+          <div class="faq-body">
+              <p>The price graph available on Paktours.pk's flight results page shows price trends for different air tickets. Remember to check it out if you want to book the cheapest flights!</p>
+          </div>
+      </div>
+
+      <hr class="hr-line">
+
+      <div class="faq-five">
+          <!-- faq question -->
+<h4 class="faq-page">How do I find the best flight deals on Paktours.pk?</h4>
+          <!-- faq answer -->
+          <div class="faq-body">
+              <p>Paktours.pk offers different flight deals. Please refer to our deals page for details.</p>
+          </div>
+      </div>
+
+      <hr class="hr-line">
+
+      <div class="faq-six">
+          <!-- faq question -->
+<h4 class="faq-page">Explore the World by Booking Cheap Flights with www.Paktours.pk</h4>
+          <!-- faq answer -->
+          <div class="faq-body">
+              <p>www.Paktours.pk goes the extra mile to help you find the best choice of flight tickets and discount airfares to destinations all around the world. Our search results provide you with the most up-to-date prices for flights worldwide, along with real-time flight statuses, durations, and departure and arrival times to help you find cheap flight tickets quickly. We take data security seriously and employ the latest in online security methods so that you can book low-cost flights with confidence using a credit and debit card, PayPal, or UnionPay.</p>
+          </div>
+      </div>
+
+</section>
+
+</section>
+
+
+<!-- FAQ -->
+
+
+
+
+<div class="l-footer layout_compact">
+
+  <!-- subfooter: top -->
+  <div class="l-subfooter at_top">
+    <div class="l-subfooter-h i-cf">
+
+
+      <div class="g-cols offset_medium">
+        <div class="one-half">
+          <div id="sow-editor-4" class="widget widget_sow-editor">
+            <div class="so-widget-sow-editor so-widget-sow-editor-base">
+              <h4 style="font-family: 'Kaushan Script', cursive">Photo Gallery</h4>
+              <div class="siteorigin-widget-tinymce textwidget">
+                <div class="w-gallery layout_default columns_4 link_none">
+                  <div class="w-gallery-list">
+
+                    <div class="w-gallery-item order_1">
+                      <img width="400" height="400" src="Astola-Island-Gwadar.jpg" class="w-gallery-item-img"
+                        alt="Astola-Island-Gwadar" loading="lazy"><span class="w-gallery-item-hover"></span>
+                      <span class="w-gallery-item-title">Astola-Island-Gwadar</span>
+                    </div>
+
+
+                    <div class="w-gallery-item order_2">
+                      <img width="400" height="400" src="Government Hut in Aru Valley Pahalgam.jpg"
+                        class="w-gallery-item-img" alt="Government Hut in Aru Valley Pahalgam" loading="lazy"><span
+                        class="w-gallery-item-hover"></span>
+                      <span class="w-gallery-item-title">Government Hut in Aru Valley Pahalgam</span>
+                    </div>
+
+                    <div class="w-gallery-item order_3">
+                      <img width="400" height="400" src="Islamabad NAG.jpg" class="w-gallery-item-img"
+                        alt="Islamabad National Art Gallery" loading="lazy"><span class="w-gallery-item-hover"></span>
+                      <span class="w-gallery-item-title">Islamabad National Art Gallery</span>
+                    </div>
+
+                    <div class="w-gallery-item order_4">
+                      <img width="400" height="400" src="Wazir Khan Mosque.jpg" class="w-gallery-item-img"
+                        alt="Wazir Khan Mosque" loading="lazy"><span class="w-gallery-item-hover"></span>
+                      <span class="w-gallery-item-title">Wazir Khan Mosque</span>
+                    </div>
+
+                  </div>
+                </div>
+
+                <p style="text-align: right;"><a
+                    href="Attraction.html">View
+                    All...</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="one-half">
+          <div id="sow-editor-5" class="widget widget_sow-editor">
+            <div class="so-widget-sow-editor so-widget-sow-editor-base">
+              <h4 style="font-family: 'Kaushan Script', cursive">Quick Contact</h4>
+              <div class="siteorigin-widget-tinymce textwidget">
+
+
+
+
+                <p style="text-align: left;">Mobile: <strong>(021) 36930102<br>
+                  </strong><strong><span class="w-contacts-item-value">
+                      <a href="mailto:www.Paktours.pk@gmail.com">www.Paktours.pk@gmail.com</a></span></strong>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div id="us_socials-4" class="widget widget_us_socials">
+            <h4>Connect with us</h4>
+            <div class="w-socials size_medium style_desaturated">
+              <div class="w-socials-list">
+                <div class="w-socials-item email">
+                  <a class="w-socials-item-link" target="_blank" href="www.Paktours.pkmailto:@gmail.com ">
+                    <span class="w-socials-item-link-hover">
+                    </span></a>
+                  <div class="w-socials-item-popup">
+                    <span>Email</span>
+                  </div>
+                </div>
+                <div class="w-socials-item facebook">
+                  <a class="w-socials-item-link" target="_blank"
+                    href="https://www.facebook.com/login/">
+                    <span class="w-socials-item-link-hover"></span></a>
+                  <div class="w-socials-item-popup"><span>Facebook</span>
+                  </div>
+                </div>
+                <div class="w-socials-item linkedin">
+                  <a class="w-socials-item-link" target="_blank" href="https://www.linkedin.com/login">
+                    <span class="w-socials-item-link-hover"></span></a>
+                  <div class="w-socials-item-popup"><span>LinkedIn</span>
+                  </div>
+                </div>
+                <div class="w-socials-item youtube">
+                  <a class="w-socials-item-link" target="_blank"
+                    href="https://www.youtube.com/">
+                    <span class="w-socials-item-link-hover"></span></a>
+                  <div class="w-socials-item-popup">
+                    <span>YouTube</span>
+                  </div>
+                </div>
+                <div class="w-socials-item instagram"><a class="w-socials-item-link" target="_blank"
+                    href="https://www.instagram.com/"><span
+                      class="w-socials-item-link-hover"></span></a>
+                  <div class="w-socials-item-popup"><span>Instagram</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <footer class="text-center text-white" style="background-color: #444444 ;">
+    <!-- Grid container -->
+    <div class="container  pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/login/" role="button"><i
+            class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/login" role="button"><i class="fab fa-twitter"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.google.com/" role="button"><i class="fab fa-google"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button"><i class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/login" role="button"><i
+            class="fab fa-linkedin-in"></i></a>
+
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/login" role="button"><i class="fab fa-github"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: #333333;">
+      © 2022 Copyright:
+      <a class="text-white" href="index.html">www.Paktours.pk</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+</div>
+
+
+<!-- Js file link -->
+<script src="flightjs.js">
+</script>
+<!-- Js file link -->
+</body>
+</html>

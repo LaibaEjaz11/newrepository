@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /index.html
+Allow: /Stay.html
+Allow: /flight.html
+Allow: /Contact.html
+Allow: /CarRental.html
+Allow: /Blog.html
+Allow: /Attraction.html
+
+Sitemap: C:\Users\Administrator\OneDrive\Desktop\www.Paktours.pk\sitemap.xml
